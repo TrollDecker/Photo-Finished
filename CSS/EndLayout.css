@@ -1,0 +1,74 @@
+#Container
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#ContentPane
+{
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  width: 600px;
+  height:580px;
+  overflow-y: auto;
+  background-image: url("../Images/EndBGRed.png");
+  background-size: 100% 99px;
+  color: black;
+}
+
+#ScoreContainer
+{
+  position: absolute;
+  left: 200px;
+  bottom: 20px;
+  width: 600px;
+  height: 180px;
+  background-image: url("../Images/EndBGDarkRed.png");
+  background-size: 100% 99px;
+  color: black;
+}
+
+#ScoreHeader
+{
+  position: absolute;
+  right: 300px;
+  top: 65px;
+  width: 100px;
+  height: 50px;
+  font-size: 18pt;
+  background-image: url("../Images/ScoreBGLeft.png");
+  background-size: 100%;
+  color: white;
+  text-align: right;
+}
+
+#ScoreCounter
+{
+  position: absolute;
+  left: 300px;
+  top: 65px;
+  width: 100px;
+  height: 50px;
+  font-size: 42pt;
+  background-image: url("../Images/ScoreBGRight.png");
+  background-size: 100%;
+  color: white;  
+}
+
+#ExitButton
+{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 20px;
+  background-image: url("../Images/EndBGRed.png");
+  background-size: 100% 99px;  
+}
